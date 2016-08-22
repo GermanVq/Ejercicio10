@@ -71,6 +71,8 @@ public class Interfaz extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtfotos, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 80, 60, -1));
+
+        txttotal.setEditable(false);
         getContentPane().add(txttotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 100, -1));
 
         pack();
